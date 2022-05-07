@@ -4,20 +4,20 @@ importers:
 
   .:
     specifiers:
+      koa: ^2.13.4
+      koa-mount: ^4.0.0
       protocol-buffers: ^5.0.0
     dependencies:
+      koa: 2.13.4
+      koa-mount: 4.0.0
       protocol-buffers: 5.0.0
 
   packages/bff:
     specifiers:
       easy_sock: ^0.4.1
-      koa: ^2.13.4
-      koa-mount: ^4.0.0
       koa-static: ^5.0.0
     dependencies:
       easy_sock: 0.4.1
-      koa: 2.13.4
-      koa-mount: 4.0.0
       koa-static: 5.0.0
 
   packages/server:
